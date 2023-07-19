@@ -1,0 +1,6 @@
+telegram_token: "6182249951:AAEP0AhgpGVa2AecSWSDx83P7vPiLd2T1oU"
+template_path: "/etc/telegrambot/template.tmpl"
+time_zone: "Asia/Ho_Chi_Minh"
+split_token: "|"
+time_outdata: "02/01/2006 15:04:05"
+split_msg_byte: 10000
