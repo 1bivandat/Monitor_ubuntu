@@ -1,4 +1,4 @@
-telegram_token: "6182249951:AAEP0AhgpGVa2AecSWSDx83P7vPiLd2T1oU"
+telegram_token: "6182249951:XXX"
 template_path: "/etc/telegrambot/template.tmpl"
 time_zone: "Asia/Ho_Chi_Minh"
 split_token: "|"

@@ -1,9 +1,9 @@
 global:
   smtp_smarthost: "smtp.gmail.com:587"
-  smtp_from: "dangquangepu1701@gmail.com"
-  smtp_auth_username: "dangquangepu1701@gmail.com"
-  smtp_auth_identity: "dangquangepu1701@gmail.com"
-  smtp_auth_password: "quang12345"
+  smtp_from: "test@gmail.com"
+  smtp_auth_username: "test@gmail.com"
+  smtp_auth_identity: "test@gmail.com"
+  smtp_auth_password: "password"
   resolve_timeout: 3m
 
 templates:
@@ -33,10 +33,10 @@ inhibit_rules:
 receivers:
   - name: "email"
     email_configs:
-      - to: "nnhuyenmyepu1701@gmail.com"
+      - to: "test@gmail.com"
         send_resolved: true
 
   - name: "telegram"
     webhook_configs:
-      - url: "http://192.168.5.42:9087/alert/-879785550"
+      - url: "http://192.168.5.42:9087/alert/ChatID"
         send_resolved: true
